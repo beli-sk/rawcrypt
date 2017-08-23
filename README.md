@@ -4,6 +4,9 @@ Raw encryption tools
 A set of command line tools for performing raw encryption written in Python
 and using PyCrypto module.
 
+This project has been made obsolete by [Rawcrypt 2](https://github.com/beli-sk/rawcrypt2).
+
+
 Usage
 -----
 
@@ -19,28 +22,22 @@ Usage
 
 * ```hash_sha256.py``` Reads data from stdin and outputs hexadecimal encoded SHA256 hash on stdout.
 
+
+Known issues
+------------
+
+* data is not authenticated
+
+* key given on command line
+
+
 License
 -------
 
-This software is licensed under the terms of the MIT (expat) license.
+Written by Michal Belica <https://beli.sk> in 2013 and 2014.
 
-    Copyright (C) 2014 Michal Belica
-    
-    Permission is hereby granted, free of charge, to any person obtaining
-    a copy of this software and associated documentation files
-    (the "Software"), to deal in the Software without restriction, including
-    without limitation the rights to use, copy, modify, merge, publish,
-    distribute, sublicense, and/or sell copies of the Software, and to permit
-    persons to whom the Software is furnished to do so, subject to
-    the following conditions:
-    
-    The above copyright notice and this permission notice shall be
-    included in all copies or substantial portions of the Software.
-    
-    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
-    OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL
-    THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
-    FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
-    DEALINGS IN THE SOFTWARE.
+Licenced under [CC0](https://creativecommons.org/publicdomain/zero/1.0/).
+
+To the extent possible under law, the author has waived all copyright
+and related or neighboring rights to Rawcrypt.
+
